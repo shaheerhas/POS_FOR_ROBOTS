@@ -1,0 +1,115 @@
+.backgroundWhite {
+    -fx-background-color: #ffffff;
+}
+
+.backgroundBlue {
+    -fx-background-color: #0f100a;
+}
+.backgroudGrey{
+	 -fx-background-color: grey;
+
+}
+.button1 {
+    -fx-background-insets: 0 0 0 0;
+    -fx-font-size: 13px;
+     -fx-background-color: #4285f4;
+     -fx-text-fill:#ffffff;
+     -fx-border-radius: 2px;
+      -fx-border-color: #ffffff;
+
+}
+.button1 .placeholder .label {
+
+     -fx-text-fill:black;
+ }
+.button1:hover {
+    -fx-text-fill: #26B0CF;
+    -fx-font-size: 13px;
+
+    -fx-text-fill: #777777;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+}
+.button3 {
+    -fx-background-insets: 0 0 0 0;
+    -fx-font-size: 13px;
+     -fx-background-color: #ffffff;
+     -fx-text-fill:#000000;
+
+     -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+     -fx-border-color: #26B0CF;
+    -fx-background-radius:7px;
+
+}
+
+.button3:hover {
+    -fx-text-fill: #26B0CF;
+    -fx-font-size: 13px;
+ -fx-font-weight:bold;
+    -fx-text-fill: #000000;
+    -fx-border-color: #26B0C0;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+    -fx-background-radius:7px;
+}
+
+.button2 {
+    -fx-background-color:  #ffffff;
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-insets: 0 0 0 0 ;
+    -fx-text-fill: #000000;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-border-color: #26B0CF;
+    -fx-border-width: 5px;
+}
+
+.button2:hover {
+
+    -fx-text-fill: #000000;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 5px;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-max-width: 120px;
+    -fx-tab-min-width: 180px;
+    -fx-tab-min-height:120px;
+    -fx-tab-max-height:200px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #F6900A;
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #D87B00;
+}
+
+.tab .tab-label {
+    -fx-rotate: 0;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+.tab:selected .tab-label {
+    -fx-rotate: 0;
+    -fx-text-alignment: center;
+    -fx-text-fill: #ffffff;
+}
